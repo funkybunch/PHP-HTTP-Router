@@ -157,6 +157,7 @@ For bug reports, please create an [issue](https://github.com/funkybunch/Simple-H
 ## Roadmap
 - Advanced Error States & Handling
 
+Please create an [issue](https://github.com/funkybunch/Simple-HTTP-Router/issues) for any other suggestions.
 
 ##License
 Copyright (c) 2019 Mark Adkins and other [contributors](https://github.com/funkybunch/Simple-HTTP-Router/graphs/contributors).  This project is Open Source and licensed under the [MIT License](https://github.com/funkybunch/Simple-HTTP-Router/blob/master/LICENSE).
