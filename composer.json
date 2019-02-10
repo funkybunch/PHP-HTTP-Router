@@ -1,6 +1,6 @@
 {
   "name": "funkybunch/simple-http-router",
-  "description": "Boilerplate package for creating other packages.",
+  "description": "A simple HTTP router written in PHP.  Use this to better manage routing for APIs and server-side web routing.",
   "keywords": ["router", "route", "server-side", "api", "error", "handler"],
   "license": "MIT",
   "authors": [
