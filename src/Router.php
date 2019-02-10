@@ -28,7 +28,7 @@ class Router
 
     private function validateRequest($routePath, $method) {
         if($routePath == $this->request->getPath() &&
-        in_array($this->request->getPath(), $this->endpoints[$method])) {
+        in_array($this->request->getPath(), $this->endpoints[$method]) && $method == $this->request->getMethod()) {
             return true;
         }
         return false;
@@ -38,7 +38,8 @@ class Router
         if($this->request->isValidMethod()) {
             array_push($this->endpoints[$method], $path);
             if($this->validateRequest($path, $method)) {
-                return $callback();
+                $callback();
+                return true;
             } else {
                 $this->setHTTPResponseCode(405);
             }
@@ -46,16 +47,17 @@ class Router
             $this->setHTTPResponseCode(500);
         }
         http_response_code($this->responseCode);
+        return false;
     }
 
     public function get($path, $callback) {
         $routeMethod = "GET";
-        $this->constructRoute($path, $routeMethod, $callback);
+        return $this->constructRoute($path, $routeMethod, $callback);
     }
 
     public function post($path, $callback) {
         $routeMethod = "POST";
-        $this->constructRoute($path, $routeMethod, $callback);
+        return $this->constructRoute($path, $routeMethod, $callback);
     }
 
     public function __destruct()

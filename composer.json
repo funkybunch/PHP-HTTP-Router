@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FunkyBunch\\SimpleHTTPRouter\\": "./src/"
+      "FunkyBunch\\SimpleHTTPRouter\\": "src/"
     }
   }
 }

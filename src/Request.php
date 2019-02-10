@@ -27,8 +27,13 @@ class Request
     public function getAllowedMethods() {
         return $this->allowedMethods;
     }
+
     public function getPath() {
         return $this->path;
+    }
+
+    public function getMethod() {
+        return $this->method;
     }
 
     public function isValidMethod(){
