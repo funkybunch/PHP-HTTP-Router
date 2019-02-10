@@ -1,13 +1,11 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
  * User: Mark Adkins
  * Date: 2/10/2019
  * Time: 12:34 AM
  */
 
-include_once "Request.Class.php";
-include_once "HTTPErrors.Class.php";
+namespace FunkyBunch\SimpleHTTPRouter;
 
 class Router
 {

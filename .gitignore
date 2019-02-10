@@ -7,3 +7,6 @@ composer.phar
 *.iml
 .idea
 .htaccess
+vendor/
+composer.lock
+.DS_Store

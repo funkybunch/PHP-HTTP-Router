@@ -1,0 +1,24 @@
+{
+  "name": "funkybunch/simple-http-router",
+  "description": "Boilerplate package for creating other packages.",
+  "keywords": ["router", "route", "server-side", "api", "error", "handler"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Adkins",
+      "email": "mark@kuipr.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FunkyBunch\\SimpleHTTPRouter\\": "./src/"
+    }
+  }
+}

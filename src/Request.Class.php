@@ -1,10 +1,11 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
  * User: Mark Adkins
  * Date: 2/10/2019
  * Time: 12:39 AM
  */
+
+namespace FunkyBunch\SimpleHTTPRouter;
 
 class Request
 {
@@ -14,7 +15,7 @@ class Request
     private $path;
 
     public function __construct(){
-        $this->path     = str_replace("/Portfolio-Data-Provider", "", $_SERVER['REQUEST_URI']);
+        $this->path     = $_SERVER['REQUEST_URI'];
         $this->request  = $_REQUEST;
         $this->method   = $_SERVER['REQUEST_METHOD'];
     }
