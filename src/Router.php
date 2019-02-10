@@ -60,6 +60,10 @@ class Router
         return $this->constructRoute($path, $routeMethod, $callback);
     }
 
+    public function getRequest() {
+        return $this->request->getRequest();
+    }
+
     public function __destruct()
     {
         //echo json_encode($this->endpoints, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
