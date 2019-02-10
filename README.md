@@ -1,4 +1,5 @@
 # Simple HTTP Router
+[![Build Status](https://travis-ci.org/funkybunch/Simple-HTTP-Router.svg?branch=master)](https://travis-ci.org/funkybunch/Simple-HTTP-Router)
 
 A simple router for HTTP requests written in PHP.  Simple HTTP Router allows you to have a single point of entry for your web application or API and explicitly call different functions based on the HTTP `REQUEST_METHOD` and `REQUEST_URI`.
 
