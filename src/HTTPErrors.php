@@ -9,5 +9,5 @@ namespace FunkyBunch\SimpleHTTPRouter;
 
 class HTTPErrors
 {
-    //        http_response_code($this->responseCode);
+    // TODO
 }
