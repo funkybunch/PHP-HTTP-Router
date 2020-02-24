@@ -1,3 +1,5 @@
+*2020 Update:* PHP will forever have a special place in my heart, but its 2020 and I have moved onto other projects.  As such this repository will no longer be maintained or updated.  This repo and code will remain available for anyone to use, fork, modify to your heart's content, but should be considered "No longer supported".
+
 # Simple HTTP Router
 [![Build Status](https://travis-ci.org/funkybunch/Simple-HTTP-Router.svg?branch=master)](https://travis-ci.org/funkybunch/Simple-HTTP-Router)
 
